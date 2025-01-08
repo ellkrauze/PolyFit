@@ -62,3 +62,5 @@ cmake-build-release
 cmake-build-minsizerel
 cmake-build-relwithdebinfo
 Release
+build/*
+out/build/*

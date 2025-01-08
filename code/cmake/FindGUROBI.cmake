@@ -52,7 +52,7 @@ if (NOT GUROBI_FOUND)
             "/Library/gurobi1003/macos_universal2/include"
             "/Library/gurobi952/macos_universal2/include"
             "/home/geo3d/dev/gurobi1200/include"
-            "D:\\dev\\Gurobi-10.0.3\\win64\\include"
+            "C:/gurobi1200/win64/lib"
             )
 
     set(SEARCH_PATHS_FOR_LIBRARIES
@@ -61,7 +61,7 @@ if (NOT GUROBI_FOUND)
             "/Library/gurobi1003/macos_universal2/lib"
             "/Library/gurobi952/macos_universal2/lib"
             "/home/geo3d/dev/gurobi1200/lib"
-            "D:\\dev\\Gurobi-10.0.3\\win64\\lib"
+            "C:/gurobi1200/win64/lib"
             )
 
     find_path(GUROBI_INCLUDE_DIR gurobi_c++.h

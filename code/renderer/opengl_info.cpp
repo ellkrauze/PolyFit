@@ -21,6 +21,9 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include "opengl_info.h"
 #include <iostream>
 /* this is how we can safely include GLU */
+#ifdef _WIN32
+#include <windows.h>
+#endif
 #if defined(__APPLE__) && defined(__MACH__)
 #   include <OpenGL/glu.h>
 #else
